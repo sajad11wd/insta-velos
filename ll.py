@@ -191,7 +191,7 @@ def init_db():
     conn.commit()
     conn.close()
 
-
+init_db()
 def get_price(category_key: str) -> float:
     conn = db_connect()
     row = conn.execute("SELECT value FROM settings WHERE key=?", (f"price_{category_key}",)).fetchone()
