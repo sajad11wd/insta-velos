@@ -1041,5 +1041,3 @@ if __name__ == "__main__":
         set_webhook()
     else:
         threading.Thread(target=run_bot_polling, daemon=True).start()
-
-    app.run(host='0.0.0.0', port=PORT, debug=False)
