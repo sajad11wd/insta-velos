@@ -1032,9 +1032,6 @@ def telegram_webhook():
     return {"ok": True}
 
 # ================= MAIN =================
-@app.route("/")
-def home():
-    return "Website is working ✅"
     
 if __name__ == "__main__":
     init_db()
