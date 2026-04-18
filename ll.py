@@ -20,7 +20,7 @@ from flask import Flask, request, render_template_string, redirect, url_for, abo
 
 # ================= CONFIG =================
 BOT_TOKEN = os.getenv("BOT_TOKEN", "PUT_BOT_TOKEN_HERE")
-ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "123456789"))
+ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "6479956975"))
 BASE_URL = os.getenv("BASE_URL", "https://your-domain.example")
 PORT = int(os.getenv("PORT", "8080"))
 DB_PATH = os.getenv("DB_PATH", "insta_velos_store.db")
