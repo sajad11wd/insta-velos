@@ -1,0 +1,14 @@
+[2026-04-18T04:27:43.730105] stock_add: premium: +300
+[2026-04-18T04:27:55.157367] stock_add: mid: +300
+[2026-04-18T04:28:32.837661] order_created: order #1
+[2026-04-18T04:28:48.808470] order_approved: order #1, delivered 250
+[2026-04-18T04:30:26.871106] order_created: order #2
+[2026-04-18T04:30:33.148484] order_approved: order #2, delivered 50
+[2026-04-18T04:59:18.354442] price_update: premium => 0.08
+[2026-04-18T05:00:10.190727] price_update: mid => 0.05
+[2026-04-18T05:00:55.019344] price_update: basic => 0.036
+[2026-04-18T05:01:05.975338] stock_clear: all categories cleared
+[2026-04-18T06:26:18.108542] stock_clear: all categories cleared
+[2026-04-18T06:27:31.124870] price_update: premium => 0.08
+[2026-04-18T06:27:41.658846] price_update: mid => 0.05
+[2026-04-18T06:27:52.282877] price_update: basic => 0.036
